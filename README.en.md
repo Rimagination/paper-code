@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" width="150" alt="paper-code mark: a hand-drawn sheet of paper with a pair of curly braces">
+</p>
+
 <h1 align="center">paper-code</h1>
 
 <p align="center">
@@ -155,7 +159,7 @@ skills/paper-code/
 
 The invariants split into §1 samples/missing/pairs, §2 statistics, §3 numerics, §4 RNG and machine learning, §5 space-time and units, §6 contracts and tool consumers, §7 figures, §8 notebooks, §9 method doubts; the verification protocol into §1 baseline, §2 comparison definitions, §3 levels, §4 when you cannot run, §5 delivery notes, §6 records.
 
-Loaded on demand: no literature review per tidy-up, and no automatic invocation of other skills. The README and LICENSE sit at the repo root, outside the package on purpose — the skill ships exactly those 4 markdown files.
+Loaded on demand: no literature review per tidy-up, and no automatic invocation of other skills. The README, LICENSE and assets/ sit at the repo root, outside the package on purpose — the skill ships exactly those 4 markdown files.
 
 ## Install
 

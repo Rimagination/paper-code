@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" width="150" alt="paper-code 标志：手绘的一张纸与一对花括号">
+</p>
+
 <h1 align="center">paper-code</h1>
 
 <p align="center">
@@ -155,7 +159,7 @@ skills/paper-code/
 
 不变量分成 §1 样本/缺失/配对、§2 统计、§3 数值、§4 随机与机器学习、§5 时空与单位、§6 契约与工具消费、§7 图表、§8 notebook、§9 方法疑点；验证协议分成 §1 基线、§2 比较定义、§3 等级、§4 无法执行、§5 交付说明、§6 记录。
 
-按需加载，不是每次整理都重读一遍文献，也不自动调用其他 Skill。README 与 LICENSE 在仓库根目录，不在 Skill 包内：包里只有这 4 个 Markdown 文件。
+按需加载，不是每次整理都重读一遍文献，也不自动调用其他 Skill。README、LICENSE 与 assets/ 在仓库根目录，不在 Skill 包内：包里只有这 4 个 Markdown 文件。
 
 ## 安装
 

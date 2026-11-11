@@ -164,14 +164,14 @@ The skill lives at `skills/paper-code/` in this repo. Pick either way.
 **One shared copy across agents** (the `skills` CLI symlinks by default instead of copying):
 
 ```powershell
-skills add Rimagination/paper-code-skill --global --agent '*' --skill paper-code --yes
+skills add Rimagination/paper-code --global --agent '*' --skill paper-code --yes
 ```
 
 **Manual install**: clone the repo and copy the whole `skills/paper-code/` directory.
 
 ```bash
-git clone https://github.com/Rimagination/paper-code-skill.git
-cp -r paper-code-skill/skills/paper-code ~/.qoder/skills/
+git clone https://github.com/Rimagination/paper-code.git
+cp -r paper-code/skills/paper-code ~/.qoder/skills/
 ```
 
 Swap `~/.qoder/skills/` for your host's directory — `~/.claude/skills/`, `~/.codex/skills/`, `~/.config/opencode/skills/`, `~/.zcode/skills/` — ending up with `<skills>/paper-code/SKILL.md`.

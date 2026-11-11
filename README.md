@@ -164,14 +164,14 @@ skills/paper-code/
 **跨 Agent 共享一份**（`skills` CLI 默认用符号链接，不重复拷贝）：
 
 ```powershell
-skills add Rimagination/paper-code-skill --global --agent '*' --skill paper-code --yes
+skills add Rimagination/paper-code --global --agent '*' --skill paper-code --yes
 ```
 
 **手动放入技能目录**：克隆仓库，把 `skills/paper-code/` 整个复制进去。
 
 ```bash
-git clone https://github.com/Rimagination/paper-code-skill.git
-cp -r paper-code-skill/skills/paper-code ~/.qoder/skills/
+git clone https://github.com/Rimagination/paper-code.git
+cp -r paper-code/skills/paper-code ~/.qoder/skills/
 ```
 
 把 `~/.qoder/skills/` 换成你的宿主目录，例如 `~/.claude/skills/`、`~/.codex/skills/`、`~/.config/opencode/skills/`、`~/.zcode/skills/`，最终得到 `<skills>/paper-code/SKILL.md`。

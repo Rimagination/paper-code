@@ -72,23 +72,6 @@ After installing, restart the session or run `/skills reload`, then invoke it by
 
 For a review only, say "use paper-code to audit this code read-only" and it will not touch a file.
 
-### Manual or shared install
-
-One shared copy across agents (the `skills` CLI symlinks by default):
-
-```powershell
-skills add Rimagination/paper-code --global --agent '*' --skill paper-code --yes
-```
-
-Or clone and copy `skills/paper-code/` into your host's skills directory (`~/.claude/skills/`, `~/.qoder/skills/`, `~/.codex/skills/`, `~/.config/opencode/skills/`, `~/.zcode/skills/`):
-
-```bash
-git clone https://github.com/Rimagination/paper-code.git
-cp -r paper-code/skills/paper-code ~/.qoder/skills/
-```
-
-There is no executable code, no network calls and no config file; hosts that only read a rules file can load `skills/paper-code/SKILL.md` directly.
-
 ## What you get
 
 - **What changed:** file links, the concrete reading benefit, the important behaviours preserved; if nothing changed, why.

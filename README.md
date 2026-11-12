@@ -72,23 +72,6 @@
 
 只想审查时说“用 paper-code 只读审查这份代码”，它不会改任何文件。
 
-### 手动或共享安装
-
-跨 Agent 共用一份（`skills` CLI 默认符号链接）：
-
-```powershell
-skills add Rimagination/paper-code --global --agent '*' --skill paper-code --yes
-```
-
-或克隆后把 `skills/paper-code/` 复制进宿主技能目录（`~/.claude/skills/`、`~/.qoder/skills/`、`~/.codex/skills/`、`~/.config/opencode/skills/`、`~/.zcode/skills/`）：
-
-```bash
-git clone https://github.com/Rimagination/paper-code.git
-cp -r paper-code/skills/paper-code ~/.qoder/skills/
-```
-
-它没有可执行代码、没有网络调用、没有配置文件；只读规则文件的宿主可直接加载 `skills/paper-code/SKILL.md`。
-
 ## 你会得到什么
 
 - **改了什么：**文件链接、具体的阅读收益、保留的重要行为；没改动会说明原因。
